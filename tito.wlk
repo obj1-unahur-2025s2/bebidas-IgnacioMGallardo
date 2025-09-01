@@ -13,6 +13,5 @@ object tito {
     dosisConsumida = cantidad
     bebidaActual = bebida
   }
-  method velocidad() = (bebidaActual.rendimiento(self.dosisConsumida()) * inercia) / peso
-  method division() = 3 / 2
+  method velocidad() = bebidaActual.rendimiento(self.dosisConsumida()) * inercia / peso
 }
